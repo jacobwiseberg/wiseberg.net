@@ -1,0 +1,28 @@
+# Hugo generated files
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Secrets and sensitive files
+.env
+.env.*
+*.key
+*.pem
+secrets.yaml
+secrets.json
+*secret*
+*credentials*

@@ -1,0 +1,16 @@
+baseURL = 'https://wiseberg.net/'
+title = 'Jacob Wiseberg'
+languageCode = 'en-us'
+copyright = 'Jacob Wiseberg'
+summaryLength = 8
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  baseName = "blog"
+
+[params]
+  description = 'Personal blog and portfolio'
+  author = 'Jacob Wiseberg'
+  email = 'jacob@wiseberg.net'
